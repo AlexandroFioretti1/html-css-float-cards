@@ -11,7 +11,6 @@
     border: 1px solid red;
 }
 
-
 /* utility  */
 .container {
     max-width: 100%;
@@ -24,8 +23,8 @@
     color: white;
     float: left;
     text-align: left;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-bottom: 100px;
     width: calc(90% / 3);
 }
 
@@ -52,8 +51,6 @@ h1 {
 
 .card img {
     Float: Left;
-    /* margin-top: 20px;
-margin-bottom: 20px; */
 }
 
 footer {
@@ -61,8 +58,9 @@ footer {
     font-size: 1.5rem;
 }
 
-.text-card{
+.text-card {
     margin-left: 220px;
     margin-top: 50px;
+    font-size: 1.50rem;
 }
 }
