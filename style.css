@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    height: 300px;
+    background-color: rgb(48, 44, 40);
+    border: 1px solid red;
+}
+/* utility */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /*     margin: 5rem 10rem; */
+}
+/* Fine utility */
+h1{
+    text-align: center;
+    color: rgb(212, 110, 110);
+}
+.card {
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: left;
+}
+/* clear fix */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+/* debug */
