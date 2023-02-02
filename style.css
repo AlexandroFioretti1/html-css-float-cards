@@ -13,9 +13,8 @@
 /* utility  */
 .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
     height: 200px;
-
 }
 
 .card {
@@ -23,13 +22,18 @@
     color: white;
     float: left;
     text-align: left;
-    width: calc(100% / 3);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: calc(90% / 3);
+
 }
 
 /* Fine utility */
 h1 {
     text-align: center;
     color: rgb(212, 110, 110);
+    margin-bottom: 4rem;
+    margin-top: 1rem;
 }
 
 /* clear fix */
@@ -39,12 +43,10 @@ h1 {
     clear: both;
 }
 
+.intro {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 75px;
+}
 
 /* debug */
-
-
-
-body {
-    background-color: green;
-
-}
