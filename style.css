@@ -23,9 +23,10 @@
     color: white;
     float: left;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 100px;
-    width: calc(90% / 3);
+    width: calc(100% / 3 -40);
 }
 
 /* Fine utility */
@@ -51,6 +52,7 @@ h1 {
 
 .card img {
     Float: Left;
+
 }
 
 footer {
@@ -62,5 +64,4 @@ footer {
     margin-left: 220px;
     margin-top: 50px;
     font-size: 1.50rem;
-}
 }
